@@ -9,6 +9,17 @@
 	
 </head>
 <body>
-	<canvas id="canvas" style="border:1px solid #000000;"></canvas>
+	<canvas id="canvas" width="1536" height="760"></canvas>
+	<script>
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext("2d");
+		
+		var x = canvas.width/2;
+		var y = canvas.height/2;		
+		
+		ctx.textAlign = "center";
+		ctx.font = "30px Consolas";
+		ctx.strokeText("Project Sapphire",x,y);
+	</script>
 </body>
 </html>
