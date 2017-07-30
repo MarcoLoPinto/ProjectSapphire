@@ -3,6 +3,7 @@ body{
 	border: 0px;
 	padding: 0px;
 	background-image: url('sapphire-back.png');
+	background-size:contain;
 }
 #canvas {
 	width: 100%;
